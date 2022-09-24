@@ -1,0 +1,253 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #F3F5FC;
+}
+
+header{
+    margin: 10px 0 0 10px;
+    display: inline-block;
+}
+
+/* css body*/
+.caja{
+    width: 90%;
+}
+
+.entradatexto{
+    display: inline-block;
+    margin: 3% 0 0 12%;
+    width: 50%;
+    height: 650px;
+}
+
+.entradatexto textarea{
+    border: none;
+    background: none;
+    font-size: 30px;
+    padding: 8px;
+    width: 100%;
+    height: 80%;
+}
+
+.entradatexto ::placeholder{
+    color: rgb(49, 49, 163);
+    font-size: 22px;
+}
+
+.salidatexto{
+ display: inline-block;
+ position: absolute;
+ top: 60px;
+ right: 30px;
+ width: 30%;
+}
+
+.salidatexto textarea{
+font-size: 22px;
+border: 2px solid white;
+border-radius: 32px;
+box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+padding: 30px 30px;
+width: 80%;
+height: 900px;
+}
+
+.imagensaslida::placeholder{
+    background-image: url(pics/1.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 80%;
+    height: 800px;
+    color: blue;
+    text-align:bottom;
+    background-size: 90%;
+    padding: 1px 19px;
+    background-position-x:100%;
+    background-position-y:200px;
+}
+
+.copiar{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    padding: 24px;
+    width: 60%;
+    height: 67px;
+    position: absolute;
+    top: 800px;
+    right: 24%;
+}
+.botones{
+width: 60%;
+margin: 10px 10px 10px 12%;
+}
+
+.botones p{
+    font-size: 12px;
+    margin-left: 19px;
+}
+
+p svg{
+float: left;
+margin-right: 7px;
+}
+
+.en{
+    background: #0a3871;
+    color: white;
+    width: 40%;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 25px;
+    font-size: 16px;
+}
+
+.des{
+    background: #D8DFE8;
+    color: rgb(49 49 142);
+    width: 40%;
+    padding: 20px;
+    border: 2px solid #315aaf;
+    border-radius: 25px;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+@media screen and (max-width:800px){
+    
+.entradatexto, .salidatexto, .botones, .caja, .copiar{
+    display: block;
+    width: auto;
+}
+
+.entradatexto{
+height: 500px;
+margin: 117px 0 0 40px;
+width: 90%;
+}
+
+.entradatexto textarea{
+font-size: 33px;
+padding: 8px;
+width: 100%;
+height: 80%;
+}
+
+.botones{
+    margin: 10% 3% 8% 3%;
+
+}
+
+.salidatexto{
+margin: 5%;
+position: static;
+
+}
+
+.salidatexto textarea{
+height: 250px;
+font-size: 24px;
+width: 90%;
+}
+
+.imagensaslida::placeholder{
+    background-image: none;
+    background-position: center;
+    text-align:bottom;
+    background-position-x:100%;
+    font-size: 24px;
+
+}
+
+.copiar{
+    width: 80%;
+    height: 67px;
+    position: static;
+    font-size: 16px;
+    margin: 2% 10%;
+}
+
+.en{
+width: 48%;
+font-size: 16px;
+}
+
+.des{
+width: 48%;
+font-size: 16px;
+margin-left: 3%;
+}
+}
+
+@media screen and (max-width:449px){
+    
+    .entradatexto, .salidatexto, .botones, .caja, .copiar{
+        display: block;
+        width: auto;
+    }
+
+   .a{
+        width: 100px;
+    }
+    
+    .entradatexto{
+    width: 96%;
+    float: left;
+    margin: 0 2% 15% 2%;
+    height: 600px;
+
+    }
+    
+    .entradatexto textarea{
+    font-size: 33px;
+    padding: 8px;
+    width: 100%;
+    height: 80%;
+    }
+    
+    .botones{
+        width: 100%;
+    }
+    
+    .en{
+        margin-left: 3%;
+        display: block;
+        align-content: center;
+        float: left;
+        width: 90%;
+    }
+    
+    .des{
+        display: block;
+        margin: 5% 3% 15%;
+        width: 90%;
+        float: left;
+    }
+        
+    .salidatexto textarea{
+        height: 520px;
+        font-size: 24px;
+        width: 86%;
+        float: left;
+        margin-bottom: 5%;
+        }
+        
+    .imagensaslida::placeholder{
+            background-image: none;
+            background-position: center;
+            text-align:bottom;
+            background-position-x:100%;
+            font-size: 24px;
+        }
+        
+    .copiar{
+            width: 80%;
+            height: 67px;
+            position: static;
+            font-size: 16px;
+            margin: 2% 10%;
+        }
+    }
+
+
+
+
